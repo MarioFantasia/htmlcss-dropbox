@@ -20,10 +20,11 @@
 /* HEADER */
     header {
         width: 100%;
-        height: 12vh;
+        height: 80px;
         padding: 25px 25px;
-        position: fixed;
         font-family: 'Open Sans', sans-serif;
+        position: fixed;
+        background-color: white;
     }
 
     .header-container {
@@ -33,7 +34,6 @@
 
     .header-left {
         max-width: 45%;
-        
         float: left;
     }
 
@@ -75,5 +75,68 @@
         vertical-align: middle;
         color: white;
     }
-
 /* /HEADER */
+
+/* MAIN */
+    main {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-color: #b4d0e7;
+    }
+
+    .banner-container {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    h1 {
+        font-size: 70px;
+        padding-top: 80px;
+        margin-bottom: 25px;
+    }
+
+    .banner-box {
+        width: 100%;
+    }
+
+    .box-text {
+        width: 30%;
+        float: left;
+    }
+
+    .text {
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .banner-box a {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    h5 {
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .fa-arrow-down {
+        font-size: 40px;
+    }
+
+    .banner-box img {
+        width: 60%;
+        float: right;
+    }
+/* /MAIN */
+
+/* FOOTER */
+/* /FOOTER */
+
+
