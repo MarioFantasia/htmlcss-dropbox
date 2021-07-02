@@ -1,4 +1,5 @@
 /* NOTE: FARE UNA CLASSE CLEARFIX, UNA CLASSE PER GLI INLINE BLOCK.... */
+/* TOGLIERE IL BANNER-BOX */
 
 /* RESET */
     *{
@@ -41,16 +42,19 @@
         display: inline-block;
         vertical-align: middle;
     }
-    
+
     .nav-left {
         display: inline-block;
     }
 
     ul, li {
-        display: inline-block;
         list-style: none;
-        margin: 0 20px;
         font-weight: 600;
+    }
+
+    .left-menu, .right-menu, .left-menu li, .right-menu li {
+        display: inline-block;
+        margin: 0 20px;
     }
 
     a {
@@ -81,10 +85,10 @@
     main {
         font-family: 'Open Sans', sans-serif;
     }
-
+    /* section-banner */
     .banner {
         width: 100%;
-        height: 100vh;
+        height: 720px;
         background-color: #b4d0e7;
     }
 
@@ -134,6 +138,77 @@
         width: 60%;
         float: right;
     }
+    /* /section-banner */
+
+    /* section-business */
+    .business {
+        margin: 100px auto;
+        width: 70%;
+        height: 1000px;
+    }
+
+    .business-container {
+        height: 1000px; /*prova*/
+        padding-top: 100px;
+    }
+
+    .business-top h2 {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    input[type=radio] {
+        margin-right: 3px;
+    }
+
+    form span {
+        margin-right: 20px;
+        padding: 0;
+        font-weight: 600;
+    }
+
+    .business-raw {
+        width: 100%;
+        height: 500px;
+    }
+
+    .colonna {
+        width: 100%;
+        display: inline-block;
+    }
+
+    h6 {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .info {
+        padding: 25px;
+    }
+
+    .piano {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .costo, .ufficio {
+        font-weight: 700;
+    }
+
+    .ufficio {
+        margin-bottom: 25px ;
+    }
+
+    .testo {
+        font-size: 14px;
+    }
+
+    /* /section-business */
+
+
 /* /MAIN */
 
 /* FOOTER */
