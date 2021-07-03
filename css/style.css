@@ -145,12 +145,12 @@
     .business {
         margin: 100px auto;
         width: 80%;
-        height: 1000px;
+        
     }
 
     .business-container {
-        height: 1000px; /*prova*/
         padding-top: 100px;
+        margin-bottom: 100px;
     }
 
     .business-top {
@@ -173,7 +173,6 @@
     }
 
     .business-raw {
-        width: 100%;
         margin-bottom: 30px;
     }
 
@@ -221,7 +220,7 @@
 
 
     .costo {
-    margin-bottom: 12px;
+        margin-bottom: 12px;
     }
 
     .costo, .ufficio {
@@ -268,10 +267,6 @@
         margin: 15px 0;
     }
 
-    .punto {
-
-    }
-
     .business-bottom {
         width: 97%;
         border: 1px solid #d0d0d3;
@@ -295,6 +290,49 @@
         margin-bottom: 25px;
     }
     /* /section-business */
+
+
+    /* section partner */
+    .partner {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .partner-container {
+        width: 98%;
+    }
+
+    .partner-container img {
+        width: 55%;
+        vertical-align: text-top;
+        float: left;
+    }
+
+    .text-partner {
+        width: 40%;
+        float: right;
+        margin: 40px 5px;
+    }
+
+    .text-partner h3 {
+        display: inline-block;
+        font-size: 28px;
+    }
+
+    .text-partner p {
+        line-height: 1.8;
+        margin: 20px 0;
+    }
+
+    .text-partner button {
+        padding: 10px 18px;
+        text-align: center;
+        background-color: white;
+        border: 1px solid blak;
+    }
+
+    /* /section partner */
 
 
 /* /MAIN */
