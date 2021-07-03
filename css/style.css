@@ -296,7 +296,7 @@
     .partner {
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 
     .partner-container {
@@ -329,10 +329,59 @@
         padding: 10px 18px;
         text-align: center;
         background-color: white;
-        border: 1px solid blak;
+        border: 1px solid black;
     }
 
     /* /section partner */
+
+    /* section tools */
+    .tools{
+        background-color: yellow;
+        border: 1px solid blue;
+        width: 80%;
+        height: 800px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .tools h2 {
+        background-color: yellow;
+        border: 1px solid blue;
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .strumenti {
+        background-color: chartreuse;
+    }
+
+    .tools-raw {
+        height: 50%;
+        background-color: cyan;
+    }
+
+    .strumento {
+        width: 33%;
+        background-color: darkblue;
+        display: inline-block;
+    }
+
+    .strumento img {
+        width: 100%;
+    }
+
+    .tools-text, .tools-text p {
+        padding-right: 15px;
+    }
+
+    .tools-text h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /* /section tools */
 
 
 /* /MAIN */
