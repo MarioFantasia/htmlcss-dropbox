@@ -21,7 +21,6 @@
 /* HEADER */
     header {
         width: 100%;
-        height: 80px;
         padding: 25px 25px;
         font-family: 'Open Sans', sans-serif;
         position: fixed;
@@ -88,13 +87,12 @@
     /* section-banner */
     .banner {
         width: 100%;
-        height: 720px;
+        height: 720px; 
         background-color: #b4d0e7;
     }
 
     .banner-container {
         width: 80%;
-        height: 100%;
         margin: 0 auto;
         padding-top: 80px;
     }
@@ -144,17 +142,11 @@
     /* section-business */
     .business {
         margin: 100px auto;
-        width: 80%;
-        
+        width: 70%;
     }
 
     .business-container {
         padding-top: 100px;
-        margin-bottom: 100px;
-    }
-
-    .business-top {
-        margin-bottom: 20px;
     }
 
     .business-top h2 {
@@ -173,11 +165,13 @@
     }
 
     .business-raw {
-        margin-bottom: 30px;
+        width: 100%;
     }
 
     .colonna {
         width: 100%;
+        display: inline-block;
+        border: 1px solid #d0d0d3;
         display: inline-block;
     }
 
@@ -187,17 +181,17 @@
 
     .colonna-raw h6, .colonna-raw .info {
         width: 90%;
-        border: 1px solid #d0d0d3;
+        border-right: 1px solid #d0d0d3;
     }
 
     h6 {
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
         text-align: center;
         padding: 5px;
-        border-bottom: 1px solid #d0d0d3;
-
+        border: 1px solid #d0d0d3;
     }
+
 
     .info {
         padding: 25px;
@@ -253,7 +247,7 @@
 
     .linea {
         border: 0;
-        background-color: #d0d0d3;
+        background-color: grey;
         width: 40px;
         height: 1px;
         margin-bottom: 20px;
@@ -267,34 +261,22 @@
         margin: 15px 0;
     }
 
-    .business-bottom {
-        width: 97%;
-        border: 1px solid #d0d0d3;
-    }
-
-    .button-contact {
-        width: 28%;
-        float: right;
-        margin: 20px 20px 0 0;
-        text-align: center;
-        font-weight: 600;
-        padding: 5px 20px;
-    }
-
     .bottom-container {
-        width: 70%;
-        float: left;
+        width: 75%;
+        display: inline-block;
     }
+
 
     .ufficio {
         margin-bottom: 25px;
     }
-    /* /section-business */
 
+
+    /* /section-business */
 
     /* section partner */
     .partner {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         margin-bottom: 70px;
     }
@@ -336,33 +318,21 @@
 
     /* section tools */
     .tools{
-        background-color: yellow;
-        border: 1px solid blue;
-        width: 80%;
-        height: 800px;
+        width: 70%;
         margin: auto;
         margin-bottom: 50px;
     }
 
     .tools h2 {
-        background-color: yellow;
-        border: 1px solid blue;
+
         font-size: 40px;
         padding-bottom: 30px;
     }
 
-    .strumenti {
-        background-color: chartreuse;
-    }
 
-    .tools-raw {
-        height: 50%;
-        background-color: cyan;
-    }
 
     .strumento {
         width: 33%;
-        background-color: darkblue;
         display: inline-block;
     }
 
@@ -378,10 +348,10 @@
         font-size: 25px;
         margin-bottom: 20px;
     }
-
-
-
-    /* /section tools */
+    
+    
+    
+        /* /section tools */
 
 
 /* /MAIN */
