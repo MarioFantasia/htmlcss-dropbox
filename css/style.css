@@ -73,7 +73,7 @@
         vertical-align: middle;
     }
 
-    .button {
+    .button, .button-contact {
         background-color: #0061ff;
         padding: 8px 20px;
         vertical-align: middle;
@@ -98,6 +98,7 @@
         margin: 0 auto;
         padding-top: 80px;
     }
+    
 
     h1 {
         font-size: 70px;
@@ -143,13 +144,17 @@
     /* section-business */
     .business {
         margin: 100px auto;
-        width: 70%;
+        width: 80%;
         height: 1000px;
     }
 
     .business-container {
         height: 1000px; /*prova*/
         padding-top: 100px;
+    }
+
+    .business-top {
+        margin-bottom: 20px;
     }
 
     .business-top h2 {
@@ -169,7 +174,7 @@
 
     .business-raw {
         width: 100%;
-        height: 500px;
+        margin-bottom: 30px;
     }
 
     .colonna {
@@ -177,16 +182,36 @@
         display: inline-block;
     }
 
+    .colonna-raw {
+        width: calc(100%/3);
+    }
+
+    .colonna-raw h6, .colonna-raw .info {
+        width: 90%;
+        border: 1px solid #d0d0d3;
+    }
+
     h6 {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
         text-align: center;
         padding: 5px;
+        border-bottom: 1px solid #d0d0d3;
+
     }
 
     .info {
         padding: 25px;
     }
+
+    .info .button {
+        text-align: center;
+    }
+
+    .info .button, .info .link {
+        margin: 50px 0 30px 0;
+    }
+
 
     .piano {
         font-weight: 700;
@@ -194,18 +219,81 @@
         margin-bottom: 10px;
     }
 
+
+    .costo {
+    margin-bottom: 12px;
+    }
+
     .costo, .ufficio {
         font-weight: 700;
     }
 
-    .ufficio {
-        margin-bottom: 25px ;
+
+    .mese {
+        color: #d0d0d3;
+        margin-bottom: 50px;
     }
+
 
     .testo {
         font-size: 14px;
+    }   
+
+    .n-utenti,  .memoria{
+        margin-bottom: 15px;
     }
 
+    .button a {
+        color: white;
+    }
+
+    .link a {
+        text-decoration: underline;
+        color: #0061ff;
+    }
+
+    .linea {
+        border: 0;
+        background-color: #d0d0d3;
+        width: 40px;
+        height: 1px;
+        margin-bottom: 20px;
+    }
+
+    .punti {
+        font-weight: 700;
+    }
+
+    .punti, .punto {
+        margin: 15px 0;
+    }
+
+    .punto {
+
+    }
+
+    .business-bottom {
+        width: 97%;
+        border: 1px solid #d0d0d3;
+    }
+
+    .button-contact {
+        width: 28%;
+        float: right;
+        margin: 20px 20px 0 0;
+        text-align: center;
+        font-weight: 600;
+        padding: 5px 20px;
+    }
+
+    .bottom-container {
+        width: 70%;
+        float: left;
+    }
+
+    .ufficio {
+        margin-bottom: 25px;
+    }
     /* /section-business */
 
 
