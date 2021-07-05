@@ -552,6 +552,8 @@
             margin: auto;
             padding-top: 80px;
         }
+
+        /* footer top */
         .footer-top {
             width: 100%;
             margin-bottom: 90px;
@@ -584,7 +586,18 @@
             width: 8%;
             height: 1px;
             border: 0;
+            margin-bottom: 40px;
         }
+        /* /footer top */
+
+        /* footer bottom */
+        .footer-bottom {
+            color: grey;
+            font-size: 13px;
+        }
+        /* /footer bottom */
+
+
 
         
 
