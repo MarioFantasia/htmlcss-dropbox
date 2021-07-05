@@ -487,6 +487,7 @@
         /* section agency */
         .agency {
             background-color: #b4d0e7;
+            margin-bottom: 120px;
         }
 
         .box-agency {
@@ -509,6 +510,32 @@
             font-weight: 600;
         }
         /* /section agency */
+
+        /* section faq */
+        .faq {
+            width: 70%;
+            margin: auto auto 70px auto;
+
+        }
+
+        .faq h2 {
+            font-size: 35px;
+            padding-bottom: 45px;
+            border-bottom: 2px solid #dcdcde;
+        }
+
+        .faq li {
+            border-bottom: 2px solid #dcdcde;
+            padding: 30px 35px 30px 0;
+            font-weight: 700;
+        }
+
+        .faq li i {
+            float: right;
+        }
+
+        /* /section faq */
+
 
 
 
