@@ -370,31 +370,61 @@
         /* /section tools */
 
         /* section teams */
-        .teams {
-
-        }
 
         .teams-top {
             width: 70%;
             margin: 50px auto;
-        background-color: aqua;
+        }
 
+        .teams-top h2 {
+            font-size: 40px;
+            margin-bottom: 40px;
+            width: 53%;
+        }
+
+        .teams-top a {
+            text-decoration: underline;
+            color: #0061ff;
+            font-weight: 600;
         }
 
         .teams-bottom {
             width: 100%;
             height: 300px;
-        margin-bottom: 20px;
+            margin-bottom: 20px;
         }
 
         .column-teams {
-            width: 25%;
+            width: 30%;
             height: 100%;        
             float: left;
         }
 
         .column-teams.column-teams-c {
-            width: 50%;
+            width: 40%;
+            padding: 50px 50px;
+            background-color: #f5f5f5;
+        }
+
+        .column-teams-c img {
+            width: 25%;
+            margin-bottom: 30px;
+        }
+
+        .column-teams-c hr {
+            height: 1px;
+            background-color: lightgrey;
+            border: 0;
+            width: 10%;
+            margin-bottom: 30px;
+        }
+
+        .column-teams-c p {
+            font-weight: 600;
+        }
+
+        .column-teams-c :last-child {
+            margin: 30px 0 50px 0;
         }
 
         .squares {
@@ -411,12 +441,17 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+
+
 /* "funzione per invertire colore bianco\nero */
         #designit {
             filter: invert(100%); 
             -webkit-filter: invert(100%);
         }
 /* "funzione per invertire colore bianco\nero */
+
+
 
         .square-left-tl {
             background-color: #a2d39b ;
