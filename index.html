@@ -78,14 +78,14 @@
             <!-- /Sezione banner: banner-container: h1 banner-box: box-text: text, a.class=button, h5, i.fontawesome; img -->
 
 
-            <!-- sezione-business -->
+            <!-- sezione-business: business-container: business-top, business-raw, business-bottom -->
             <section class="business">
                 <div class="business-container">
                     <div class="business-top">
                         <h2>Trova il piano Dropbox Business che fa per te</h2>
                         <form>
-                            <input type="radio" name="Fatturazione" id=""><span>Fatturazione annuale</span>
-                            <input type="radio" name="Fatturazione" id=""><span>Fatturazione mensile</span>
+                            <input type="radio" name="Fatturazione" id=""><label>Fatturazione annuale</label>
+                            <input type="radio" name="Fatturazione" id=""><label>Fatturazione mensile</label>
                         </form>
                     </div>
 
@@ -93,68 +93,79 @@
                         
                         <div class="colonna colonna-raw">
                             <h6><i class="far fa-user"></i> Singolo</h6>
-                            <ul class="info">
-                                <li class="piano">Professional</li>
-                                <li class="costo">19,99 €</li>
-                                <li class="mese">/mese</li>
-                                <li class="testo n-utenti"><i class="far fa-user"></i>1 utente</li>
-                                <li class="testo memoria"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
-                                <li class="testo"><i class="fas fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                <li class="button"><a href="#">Prova gratis per 30 giorni</a></li>
-                                <li class="testo link">oppure <a href="#">acquista qua</a></li>
-                                <li class="linea"></li>
-                                <li class="punti">Punti salienti del piano</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox transfert</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Cartelle ofline su dispositivi mobili</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Pulizia remota dell'account</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Filigrana documento</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
-                            </ul>
+                            <div class="info">
+                                <h3 class="piano">Professional</h3>
+                                <div class="costo">19.99 €</div>
+                                <div class="mese">/mese</div>
+                                <ul>
+                                    <li class="testo n-utenti"><i class="far fa-user"></i> 1 utente</li>
+                                    <li class="testo memoria"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                                    <li class="testo"><i class="fas fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                                <a href="#" class="button">Prova gratis per 30 giorni</a>
+                                <div class="link">oppure <a href="#">acquista qua</a></div>
+                                <hr>
+                                <ul>
+                                    <li class="punti">Punti salienti del piano</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox transfert</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Cartelle ofline su dispositivi mobili</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Filigrana documento</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <div class="colonna colonna-raw colonna-raw-2">
-                            <h6><i class="far fa-user"></i> Singolo</h6>
-                            <ul class="info">
-                                <li class="piano">Professional</li>
-                                <li class="costo">19,99 €</li>
-                                <li class="mese">/mese</li>
-                                <li class="testo n-utenti"><i class="far fa-user"></i>1 utente</li>
-                                <li class="testo memoria"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
-                                <li class="testo"><i class="fas fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                <li class="button"><a href="#">Prova gratis per 30 giorni</a></li>
-                                <li class="testo link">oppure <a href="#">acquista qua</a></li>
-                                <li class="linea"></li>
-                                <li class="punti">Punti salienti del piano</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox transfert</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Cartelle ofline su dispositivi mobili</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Pulizia remota dell'account</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Filigrana documento</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
-                            </ul>
+                        <div class="colonna colonna-raw colonna-raw-center">
+                            <h6><i class="far fa-building"></i> Team</h6>
+                            <div class="info">
+                                <h3 class="piano">Standard</h3>
+                                <div class="costo">19.99 €</div>
+                                <div class="mese">/ utente / mese, a partire da 3 utenti</div>
+                                <ul>
+                                    <li class="testo n-utenti"><i class="fas fa-user-plus"></i> 1 utente</li>
+                                    <li class="testo memoria"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                                    <li class="testo"><i class="far fa-smile"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                                <a href="#" class="button">Prova gratis per 30 giorni</a>
+                                <div class="link">oppure <a href="#">acquista qua</a></div>
+                                <hr>
+                                <ul>
+                                    <li class="punti">Punti salienti del piano</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox transfert</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Cartelle ofline su dispositivi mobili</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Filigrana documento</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <div class="colonna colonna-raw colonna-raw-3">
-                            <h6><i class="far fa-user"></i> Singolo</h6>
-                            <ul class="info">
-                                <li class="piano">Professional</li>
-                                <li class="costo">19,99 €</li>
-                                <li class="mese">/mese</li>
-                                <li class="testo n-utenti"><i class="far fa-user"></i>1 utente</li>
-                                <li class="testo memoria"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
-                                <li class="testo"><i class="fas fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                                <li class="button"><a href="#">Prova gratis per 30 giorni</a></li>
-                                <li class="testo link">oppure <a href="#">acquista qua</a></li>
-                                <li class="linea"></li>
-                                <li class="punti">Punti salienti del piano</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox transfert</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Cartelle ofline su dispositivi mobili</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Pulizia remota dell'account</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Filigrana documento</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
-                                <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
-                            </ul>
+                        <div class="colonna colonna-raw">
+                            <h6><i class="far fa-building"></i> Team</h6>
+                            <div class="info">
+                                <h3 class="piano">Advanced</h3>
+                                <div class="costo">19.99 €</div>
+                                <div class="mese">/ utente / mese, a partire da 3 utenti</div>
+                                <ul>
+                                    <li class="testo n-utenti"><i class="fas fa-user-plus"></i> 1 utente</li>
+                                    <li class="testo memoria"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</li>
+                                    <li class="testo"><i class="fas fa-pen"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+                                <a href="#" class="button">Prova gratis per 30 giorni</a>
+                                <div class="link">oppure <a href="#">acquista qua</a></div>
+                                <hr>
+                                <ul>
+                                    <li class="punti">Punti salienti del piano</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox transfert</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Cartelle ofline su dispositivi mobili</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Filigrana documento</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                    <li class="testo punto"><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
@@ -171,9 +182,10 @@
                             </div>
                         </div>
                     </div>
-                
+                </div>
             </section>
-            <!-- /sezione-business -->
+            <!-- sezione-business: business-container: business-top, business-raw, business-bottom -->
+
 
             <!-- sezione partner -->
             <section class="partner">
