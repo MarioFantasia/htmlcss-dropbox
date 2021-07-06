@@ -18,12 +18,12 @@
     }
 
 /* float sx */
-    .header-left {
+    .header-left, .box-text{
         float: left;
     }
 
 /* float dx */
-    .header-right {
+    .header-right, .banner-box img {
         float: right;
     }
 
@@ -35,28 +35,37 @@
     }
 
 /* main */
-
+    .box-text a {
+        display: inline-block;
+    }
 /* footer */
 /* /inline-block */
 
 
-/* elementi comuni */
+/* elementi comuni tutta pagina */
     ul, li {
-        list-style: none;
         font-weight: 600;
+        list-style: none;
     }
 
     a {
-        text-decoration: none;
         color: black;
+        text-decoration: none;
+    }
+
+    .button {
+        padding: 8px 20px;
+        background-color: #0061ff;
+        color: white;
+        vertical-align: middle;
     }
 
 /* HEADER */
     header {
         width: 100%;
         padding: 25px;
-        position: fixed;
         background-color: white;
+        position: fixed;
         z-index: 1;
     }
 
@@ -76,13 +85,6 @@
     .nav-top ul li {
         margin: 0 20px;
     }
-
-    .button {
-        background-color: #0061ff;
-        padding: 8px 20px;
-        vertical-align: middle;
-        color: white;
-    }
 /* /HEADER */
 
 /* MAIN */
@@ -94,17 +96,16 @@
 
     .banner-container {
         width: 80%;
-        margin: 0 auto;
+        margin: auto;
         padding-top: 80px;
         position: relative;
         bottom: -60px;
     }
-    
 
     h1 {
-        font-size: 70px;
-        padding-top: 80px;
         margin-bottom: 25px;
+        padding-top: 80px;
+        font-size: 70px;
     }
 
     .banner-box {
@@ -113,23 +114,21 @@
 
     .box-text {
         width: 30%;
-        float: left;
     }
 
     .text {
-        font-weight: 600;
         margin-bottom: 20px;
         margin-left: 0;
+        font-weight: 500;
     }
 
     .banner-box a {
         margin-bottom: 10px;
-        display: inline-block;
     }
 
     h5 {
-        font-weight: 600;
         margin-bottom: 40px;
+        font-weight: 600;
     }
 
     .fa-arrow-down {
@@ -138,7 +137,7 @@
 
     .banner-box img {
         width: 60%;
-        float: right;
+
     }
     /* /section-banner */
 
