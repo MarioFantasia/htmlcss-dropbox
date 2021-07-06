@@ -369,6 +369,10 @@
         width: 100%;
     }
 
+    .tools-text span {
+        text-decoration: underline;
+    }
+
     .tools-text, .tools-text p {
         padding-right: 15px;
     }
