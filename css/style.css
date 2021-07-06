@@ -361,6 +361,7 @@
 
     .strumento {
         width: 33%;
+        margin-bottom: 100px;
         display: inline-block;
     }
 
